@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: linear-gradient(#081f2c,#112536, #081f2c);
+	z-index:-1;
+	box-sizing: border-box;
+}
+.wrap{
+	width:960px;
+	height:auto;
+	margin:auto;
+	/*background-color:#606;*/
+}
+
+/*Header*/
+header{
+	width:960px;
+	height:145px;
+	padding-top:5px;
+	/*background-color:#0CC;**/
+	padding: 0 20px 0 20px;
+}
+header ul{
+	list-style-type:none;
+	text-align:right;
+	margin-left:65%;
+	
+}
+header li{
+	display:inline;
+	color:#fff;
+	padding-right:5px;
+	float:left;
+}
+header li a{
+	text-decoration:none;
+	color:#fff;
+}
+header li a:hover{
+	text-decoration:underline;
+	cursor:pointer;
+}
+header .button{
+	display:inline-block;
+	width:23px;
+	height:23px;
+	background:#fff;
+	text-decoration:none;
+	border-radius:20% 20% 20% 20%;
+	cursor:pointer;
+	border:none;
+	float:right;
+}
+header .button:hover{
+	/*box-shadow: 2px 4px 8px 0 #CCCCCC, 0 6px 20px 0 rgba(0,0,0,0.19);*/
+	border:1px solid #000;
+	cursor:pointer;
+}
+header .button-group{
+	padding-right:40px;
+}
+header p{
+	color:#fff;
+}
+/*Navigation*/
+nav{
+	width:95%;
+	height:50px;
+	background-color:#00ab75;
+	margin:auto;
+	margin-top:-16px;
+	border-radius:10px 10px 0 0;
+}
+nav ul{
+	list-style-type:none;
+	margin-left:-40px;
+	
+}
+nav ul li:nth-child(1){
+	border-radius:10px 0 0 0;
+}
+nav ul li{
+	display:inline-block;
+	padding:16px;
+}
+nav li a{
+	color:#fff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+}
+nav li:hover{
+	background-color:#056552;
+	cursor:pointer;
+}
+nav input{
+	background:none;
+	width:140px;
+	border:none;
+}
+nav input:hover{
+	border-bottom:1px solid #fff;
+}
+.search-btn{
+	background:none;
+	border:none;
+}
+.search-btn:hover{
+	cursor:pointer;
+}
+/*Tab list giải đấu*/
+.content{
+	width:920px;
+/*	height:1400px;*/
+	background-color:#fff;
+	padding:20px;
+}
+.column-one{
+/*	width:55%;
+	height:1350px;
+	background-color:#33C;
+	float:left;*/
+	padding:2%;
+}
+.column-two{
+/*	width:37%;
+	height:1350px;
+	background-color:#639;
+	float:right;
+	padding:2%;*/
+}
+.chooseLeague{
+	float:left;
+	
+}
+.dropdown{
+	width:100%;
+	height:50px;
+}
+#listLeague{
+	/*width:275px;*/
+	margin: 10px 10px 10px 60px;
+	background-repeat: no-repeat;
+    background-image:url(../image/premierLeagueIcon.png);
+    background-position: left center;
+    padding:5px 20px 5px 20px;
+}
+#listLeague option:nth-child(1) {
+    background:url(../image/premierLeagueIcon.png) no-repeat left center;  
+}
+#listLeague option:nth-child(2) {
+    background:url(../image/championLeagueIcon.png) no-repeat left center;  
+}
+#listLeague option:nth-child(3) {
+    background:url(../image/FACupIcon.png) no-repeat left center;  
+}
+/*Footer*/
+footer hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #162b3e;
+    margin: 1em 0;
+    padding: 0;
+}
+footer p{
+	text-align:center;
+	color:#fff;
+	font-size:13px;
+	font-family:Arial;
+}
+
+
